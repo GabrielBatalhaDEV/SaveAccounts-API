@@ -1,0 +1,29 @@
+Fazer autenticação e ter acesso as suas contas
+
+
+- Fazer Cadastro de usuario 
+- Alteração de senha
+- Exclusão da conta do usuario junto a suas contas gravadas na mesma
+
+- Autenticar
+
+
+- Criar card da suas contas
+- Deletar cards
+- Alterar cards
+- Ler cards
+
+Schemas
+
+USUARIO
+Nome
+Email
+Senha
+
+CARDS
+Applicativo
+Titulo(Opcional)
+Usuario
+Senha
+Email(Opcional)
+OwenerId
