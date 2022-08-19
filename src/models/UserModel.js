@@ -1,16 +1,12 @@
-import {connect} from "../database"
-
-interface IUser {
-  name: string
-  email: string
-  password: string
-}
+const {mongoose} = require("../database")
 
 
-const userSchema = new connect.Schema<IUser>({
+const userSchema = new mongoose.Schema<IUser>({
   name: { type: String, required: true },
   email: { type: String, required: true },
   password: {type: String, required: true}
 })
 
-const User = connect.model<IUser>("User",userSchema)
+const User = mongoose.model("User",userSchema)
+
+export {User}
