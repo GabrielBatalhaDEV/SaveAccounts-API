@@ -1,10 +1,9 @@
 const mongoose = require("mongoose")
 
-await mongoose.connect("mongodb://localhost:27017/AccountsSave", {
+mongoose.connect("mongodb://localhost:27017/AccountsSave", {
   useNewUrlParser: true,
-  useFindAndModify: false,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
 })
 
 
-export {mongoose}
+module.exports = {mongoose}
