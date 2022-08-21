@@ -16,4 +16,4 @@ app.use(usersRoutes)
 app.use(handleError)
 
 
-app.listen(process.env.PORT,() => console.log(`AccountSaveAPI listening ${process.env.PORT}`))
+app.listen(process.env.PORT,() => console.log(`AccountSaveAPI listening http://localhost:${process.env.PORT}`))

@@ -4,7 +4,7 @@ const bcrypt = require("bcrypt")
 async function usersCreateService({name, email, password}){
 
       if(!name || !email || !password){
-          console.log("Fields Empty");
+        throw {message: "Empty Fields", status: 400}
       }
 
       const userAlreadyExists = await userModel.findOne({email})
