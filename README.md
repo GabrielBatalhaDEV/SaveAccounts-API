@@ -7,7 +7,7 @@
   - [x] authenticate
 
 - [ ] Accounts
-  - [x] Create
+  - [ ] Create
   - [ ] Read
   - [ ] Update
   - [ ] Deçete
