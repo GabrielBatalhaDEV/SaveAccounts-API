@@ -3,7 +3,7 @@
   - [x] Create
   - [ ] Read
   - [ ] Update
-  - [ ] Deçete
+  - [ ] Delete
   - [ ] authenticate
 
 - [ ] Accounts
