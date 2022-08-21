@@ -6,7 +6,7 @@ const {secret} = require("../config/auth.json")
 async function usersAuthenticateService({email, password}){
 
   if(!email || !password){
-    throw {message: "Empty Field", status: 400}
+    throw {message: "Empty Fields", status: 400}
   }
 
   const user = await userModel.findOne({email})
