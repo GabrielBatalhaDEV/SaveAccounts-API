@@ -1,6 +1,7 @@
 const {userModel} = require("../models/UserModel")
 const bcrypt = require("bcrypt")
 const { sign } = require("jsonwebtoken")
+const {secret} = require("../config/auth.json")
 
 async function usersAuthenticateService({email, password}){
 
@@ -34,4 +35,4 @@ async function usersAuthenticateService({email, password}){
   
 }
 
-module.export = {usersAuthenticateService}
+module.exports = {usersAuthenticateService}

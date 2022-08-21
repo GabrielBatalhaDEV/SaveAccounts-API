@@ -7,7 +7,7 @@ async function usersAuthenticateController(req, res){
 
   const token = await usersAuthenticateService({email, password})
 
-  res.json({token})
+  res.status(200).json({token})
 }
 
 module.exports = {usersAuthenticateController}
