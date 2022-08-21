@@ -4,7 +4,7 @@
   - [ ] Read
   - [ ] Update
   - [ ] Delete
-  - [ ] authenticate
+  - [x] authenticate
 
 - [ ] Accounts
   - [x] Create
